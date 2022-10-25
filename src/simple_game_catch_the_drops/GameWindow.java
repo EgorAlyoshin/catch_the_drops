@@ -61,7 +61,7 @@ public class GameWindow extends JFrame{
 
         g.drawImage(background,0,0,null);
         g.drawImage(drop,(int) drop_left,(int) drop_top,null);
-        if (drop_top > game_window.getHeight()) g.drawImage(game_over,180,120,null);
+        if (drop_top > game_window.getHeight()) g.drawImage(game_over,280,120,null);
     }
 
     private static class GameField extends JPanel{
